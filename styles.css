@@ -11,5 +11,20 @@ header {
   background-color: #4a6fa5;
   color: white;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px:
+}
+
+nav a:hover {
+  color: red;
+}
   
   
