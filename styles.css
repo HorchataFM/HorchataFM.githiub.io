@@ -41,5 +41,34 @@ footer {
   color: white;
   padding: 10px;
 }
-  
-  
+
+nav a {
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: lightblue;
+}
+
+section {
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: scale (1.02);
+}
+
+table {
+  width: 100%;
+  border-collaspe: collaspe;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #4a6fa5;
+  color: white;
+}
