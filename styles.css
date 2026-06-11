@@ -92,3 +92,19 @@ main {
     gap: 10px;
     }
   
+input,
+textarea {
+  transition: border-color 0.3s ease;
+}
+input:focus,
+textarea:focus {
+  border-color: #4a6fa5;
+}
+
+input[type="submit"} {
+  transition: background-color 0.3s ease;
+} 
+
+input[type="submit"]:hover {
+  background-color: lightblue;
+}
