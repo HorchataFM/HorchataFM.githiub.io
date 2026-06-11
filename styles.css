@@ -72,3 +72,23 @@ th {
   background-color: #4a6fa5;
   color: white;
 }
+
+nav ul {
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    }
+  
