@@ -108,3 +108,22 @@ input[type="submit"} {
 input[type="submit"]:hover {
   background-color: lightblue;
 }
+
+@media (max-width: 600px) {
+body {
+  min-width: 320px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    mid-width: 600px;
+  }
+} 
+
+@media (min-width: 1025px) {
+  body {
+    mind-width: 1024px;
+  }
+}
+
